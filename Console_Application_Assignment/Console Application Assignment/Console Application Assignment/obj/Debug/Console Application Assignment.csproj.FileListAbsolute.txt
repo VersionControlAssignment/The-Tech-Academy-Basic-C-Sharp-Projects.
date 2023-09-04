@@ -1,0 +1,7 @@
+C:\Users\Revolution540\Desktop\Console_Application_Assignment\Console Application Assignment\Console Application Assignment\bin\Debug\Console Application Assignment.exe.config
+C:\Users\Revolution540\Desktop\Console_Application_Assignment\Console Application Assignment\Console Application Assignment\bin\Debug\Console Application Assignment.exe
+C:\Users\Revolution540\Desktop\Console_Application_Assignment\Console Application Assignment\Console Application Assignment\bin\Debug\Console Application Assignment.pdb
+C:\Users\Revolution540\Desktop\Console_Application_Assignment\Console Application Assignment\Console Application Assignment\obj\Debug\Console Application Assignment.csproj.AssemblyReference.cache
+C:\Users\Revolution540\Desktop\Console_Application_Assignment\Console Application Assignment\Console Application Assignment\obj\Debug\Console Application Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Revolution540\Desktop\Console_Application_Assignment\Console Application Assignment\Console Application Assignment\obj\Debug\Console Application Assignment.exe
+C:\Users\Revolution540\Desktop\Console_Application_Assignment\Console Application Assignment\Console Application Assignment\obj\Debug\Console Application Assignment.pdb
