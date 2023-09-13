@@ -1,0 +1,7 @@
+C:\Users\Revolution540\Desktop\Console App Strings and Integers Assignment\Console App Assignment\Console App Assignment\obj\Debug\Console App Assignment.csproj.AssemblyReference.cache
+C:\Users\Revolution540\Desktop\Console App Strings and Integers Assignment\Console App Assignment\Console App Assignment\obj\Debug\Console App Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Revolution540\Desktop\Console App Strings and Integers Assignment\Console App Assignment\Console App Assignment\bin\Debug\Console App Assignment.exe.config
+C:\Users\Revolution540\Desktop\Console App Strings and Integers Assignment\Console App Assignment\Console App Assignment\bin\Debug\Console App Assignment.exe
+C:\Users\Revolution540\Desktop\Console App Strings and Integers Assignment\Console App Assignment\Console App Assignment\bin\Debug\Console App Assignment.pdb
+C:\Users\Revolution540\Desktop\Console App Strings and Integers Assignment\Console App Assignment\Console App Assignment\obj\Debug\Console App Assignment.exe
+C:\Users\Revolution540\Desktop\Console App Strings and Integers Assignment\Console App Assignment\Console App Assignment\obj\Debug\Console App Assignment.pdb
