@@ -8,6 +8,15 @@ namespace OperatorsAssignment
     {
         static void Main(string[] args)
         {
+            Employee actors = new Employee();
+            actors.actors = new List<Employee>();
+            Employee actors = new Employee();
+            actors.firstName = "Chris";
+            actors += firstName;
+            actors -= employee;
+            actors == employee;
+
+
             //Overload the “==” operator so it checks if two Employee objects are equal by comparing their Id property.
             //Remember that comparison operators must be overloaded in pairs. 
             List<Employee> actors = new List<Employee>()
