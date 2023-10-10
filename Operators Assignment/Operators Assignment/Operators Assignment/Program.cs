@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace OperatorsAssignment
 {
@@ -8,46 +6,49 @@ namespace OperatorsAssignment
     {
         static void Main(string[] args)
         {
-            Employee actors = new Employee();
-            actors.actors = new List<Employee>();
-            Employee actors = new Employee();
-            actors.FirstName = "Chris";
-            actors += FirstName;
-            actors -= FirstName;
-            actors == Firstname;
-            actors != FirstName;
+            Employee employee1 = new Employee();
+            employee1.Id = 1;
+            employee1.FirstName = "Chris";
+            employee1.LastName = "Evans";
 
+            Employee employee2 = new Employee();
+            employee2.Id = 1;
+            employee2.FirstName = "Jon";
+            employee2.LastName = "Favreau";
 
-            //Overload the “==” operator so it checks if two Employee objects are equal by comparing their Id property.
-            //Remember that comparison operators must be overloaded in pairs. 
-            List<Employee> actors = new List<Employee>()
+            if (employee2 == employee2)
             {
-                new Employee() {Id = 1, FirstName = "Robert", LastName = "Downey Jr." },
-                new Employee() {Id = 2, FirstName = "Chris", LastName = "Evans" },
-                new Employee() {Id = 3, FirstName = "Mark", LastName = "Ruffalo" },
-                new Employee() {Id = 4, FirstName = "Chris", LastName = "Hemsworth" },
-                new Employee() {Id = 5, FirstName = "Scarlett", LastName = "Johansson"},
-                new Employee() {Id = 6, FirstName = "Jeremy", LastName = "Renner"},
-                new Employee() {Id = 7, FirstName = "Don", LastName = "Cheadle"},
-                new Employee() {Id = 8, FirstName = "Scarlett", LastName = "Paltrow"},
-                new Employee() {Id = 9, FirstName = "Jon", LastName = "Favreau"},
-                new Employee() {Id = 10, FirstName = "Bradley", LastName = "Cooper"}
-            };
-
-            List<Employee> chris = new List<Employee>();
-            foreach (Employee employee in actors)
-            {
-                if (employee.FirstName == "Chris")
-                {
-                    chris.Add(employee);
-                }
+                Console.WriteLine("employee is equal to employee2");
             }
+            else
+            {
+                Console.WriteLine("employee1 is not equal to employee2");
+            }
+        }
+    }
+    public class Employee
+    {
+        public int Id { get; set; }
+        public string Firstname { get; set; }
+        public string FirstName { get; internal set; }
+        public string Lastname { get; set; }
+        public string LastName { get; internal set; }
 
-            List<Employee> chris2 = actors.Where(x => x.firstName == "chris").ToList();
-
-            List<Employee> bigid = actors.Where(x => x.Id > 5).ToList();
-
-            Console.ReadLine();
+        public static bool operator ==(Employee employee1, Employee employee2)
+        {
+            if (employee1.Id.Equals(employee2.Id))
+            {
+                return true;
+            }
+            return false;
+        }
+        public static bool operator !=(Employee employee1, Employee employee2)
+        {
+            if (!employee1.Id.Equals(employee2.Id))
+            {
+                return true;
+            }
+            return false;
         }
     }
 }
